@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(226, 226, 226);
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-container {
+  height:100vh;
+  background-image: url(background-image3.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+
+}
+
+.wrapper {
+  height: 90vh;
+  width: 40vw;
+  margin-top: 5vh;
+  border: 5px rgb(212, 212, 212) solid;
+  border-radius: 3%;
+  box-shadow: 0 0 500px rgb(0, 0, 0);
+  padding: 50px;
+  text-align: center;
+}
+
+.wrapper > h1 {
+  font-size: 50px;
+  font-family: 'Piedra', cursive;
+  letter-spacing: 10px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+}
+
+.wrapper > p {
+  font-size: 25px;
+  text-align: justify;
+}
+
+.g-signin2 {
+  float: right;
+  margin-top: 50px;
+  border: none;
+}
+
+.abcRioButtonContentWrapper {
+  background: rgba(62, 92, 90, 0.808);
+}
+
+.token-container {
+  height: 200px;
+  bottom: 5vh;
+  background-color: rgba(107, 155, 155, 0.445);
+  border-radius: 5px;
+  margin: 15vh 1vw 0 1vw;
+  padding: 5px;
+}
+
+.token-container > h2 {
+  letter-spacing: 3px;
+  text-decoration: underline;
+  color: rgb(240, 240, 240);
+  
+}
+
+.btn-gettoken {
+  padding: 10px 50px;
+  background: none;
+  border: 2px solid rgb(216, 216, 216);
+  margin-top: 50px;
+  border-radius: 5px;
+  font-size: 18px;
+  outline: none;
+}
+
+.btn-gettoken:hover {
+  background-color: rgba(95, 138, 138, 0.63);
+}
+
+[type="text"] {
+  font-size: 20px;
+  color: rgb(58, 58, 58);
+  margin-top: 50px;
+  padding: 5px 2px;
+  width: 70%;
+  text-align: center;
+  border: 2px solid black;
+  outline: none;
+}
+
+
+/* dynamic */
+
+.none {
+  display: none;
+}
