@@ -16,10 +16,5 @@ function onSignIn(googleUser) {
 }
 
 function afterSignIn() {
-  signinBtn.setAttribute("class", "none")
-  tokenContainer.setAttribute('class', 'token-container')
-  btnGetToken.addEventListener('click', e => {
-    e.target.setAttribute('class', `none`)
-    token.setAttribute('class', '')
-  })
+  console.log("logged in!")
 }
